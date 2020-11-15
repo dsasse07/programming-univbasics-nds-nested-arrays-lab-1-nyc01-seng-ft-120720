@@ -34,8 +34,8 @@ def sorted_matrix
   organic_sort = ORGANIC_PRODUCE
   conventional_sort = CONVENTIONAL_PRODUCE
   shelf = [
-    organic_sort,
-    conventional_sort
+    organic_sort.sort,
+    conventional_sort.sort
     ]
 end
 
