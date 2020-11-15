@@ -31,8 +31,8 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-  organic_sort = ORGANIC_PRODUCE.sort
-  conventional_sort = CONVENTIONAL_PRODUCE.sort
+  organic_sort = ORGANIC_PRODUCE
+  conventional_sort = CONVENTIONAL_PRODUCE
   shelf = [
     organic_sort,
     conventional_sort
